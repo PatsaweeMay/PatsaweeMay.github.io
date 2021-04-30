@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Shortly</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <div class="container is-max-widescreen">
+          <nav class="navbar nav is-transparent mt-5" role="navigation" aria-label="main navigation">
+               <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                         <img src="images/logo.svg" width="112" height="28">
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                         <span aria-hidden="true"></span>
+                         <span aria-hidden="true"></span>
+                         <span aria-hidden="true"></span>
+                    </a>
+               </div>
+
+               <div id="navbar" class="navbar-menu nav-menu">
+                    <div class="navbar-start">
+                         <a class="navbar-item menu">
+                              Features
+                         </a>
+
+                         <a class="navbar-item menu">
+                              Pricing
+                         </a>
+
+                         <a class="navbar-item menu">
+                              Resources
+                         </a>
+                    </div>
+
+                    <div class="is-flex is-justify-content-center">
+                         <div class="nav-line"></div>
+                    </div>
+
+                    <div class="navbar-end">
+                         <div class="navbar-item">
+                              <a class="button button-login w-100">
+                                   Log in
+                              </a>
+                              <a class="button button-primary is-rounded is-size-small">
+                                   Sign up
+                              </a>
+                         </div>
+                    </div>
+               </div>
+          </nav>
+     </div>
+
+     <section class="section" style="margin-bottom: 6rem;">
+          <div class="container is-max-widescreen">
+               <div class="columns flex-head">
+                    <div class="column flex-head-content">
+                         <p class="title is-size-2-mobile is-size-2-tablet is-size-large font-poppins has-text-dark">
+                              More than just <br> shorter links</p>
+                         <p class="subtitle is-size-6-mobile is-size-6-tablet is-size-5-desktop has-text-gray">
+                              Build your brand's recognition and get detailed <br>
+                              insights on how your links are performing.
+                         </p>
+                         <div class="columns">
+                              <div class="column is-6-tablet is-4-desktop">
+                                   <a class="button button-primary is-rounded">Get Started</a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="column">
+                         <img src="images/illustration-working.svg">
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <div class="bg-gray">
+          <section class="section">
+               <div class="container is-max-widescreen">
+                    <div class="box box-input-link bg-shorten">
+                         <div class="columns is-centered">
+                              <div class="column is-9">
+                                   <div class="field">
+                                        <input id="input-shorten" type="text" class="input input-shorten"
+                                             placeholder="Shorten a link here...">
+                                        <p class="help">Please add a link</p>
+                                   </div>
+                              </div>
+                              <div class="column is-2">
+                                   <button id="button-shorten" class="button button-primary">Shorten It!</button>
+                              </div>
+                         </div>
+                    </div>
+                    <div id="shorten-list">
+                         <!-- <div class="box box-link">
+                              <div class="columns">
+                                   <div class="column is-6 long-link">
+                                        <span>test</span>
+                                   </div>
+                                   <div class="column is-4 short-link">
+                                        <span>shrtco.de/KCveN</span>
+                                   </div>
+                                   <div class="column is-2">
+                                        <a class="button button-primary">Copy</a>
+                                   </div>
+                              </div>
+                         </div> -->
+                    </div>
+               </div>
+          </section>
+
+          <section class="section">
+               <div class="has-text-centered">
+                    <p class="title is-size-4-mobile is-size-4-tablet is-size-3-desktop font-poppins has-text-dark">
+                         Advanced Statistics</p>
+                    <p class="subtitle is-size-6-mobile is-size-6-tablet is-size-5-desktop has-text-gray">
+                         Track how your links are performing across the web with <br>
+                         our advanced statistics dashboard.
+                    </p>
+               </div>
+          </section>
+
+          <section class="section">
+               <div class="container is-max-widescreen">
+                    <div class="columns content-parent">
+                         <div class="column pb-6">
+                              <div
+                                   class="box box-content is-flex-mobile is-flex-direction-column is-align-items-center">
+                                   <div class="icon-circle is-flex is-justify-content-center is-align-items-center">
+                                        <figure class="image is-32x32">
+                                             <img src="images/icon-brand-recognition.svg" alt="Image">
+                                        </figure>
+                                   </div>
+                                   <p
+                                        class="title is-size-5-mobile is-size-6-tablet is-size-5-desktop font-poppins has-text-dark pt-5 pb-2">
+                                        Brand Recognition</p>
+                                   <p
+                                        class="subtitle is-size-6-mobile is-size-7-tablet is-size-5-desktop has-text-gray">
+                                        Boost your brand recognition with
+                                        each click. Generic links don't mean a
+                                        thing. Branded links help instill
+                                        confidence in your content.
+                                   </p>
+                              </div>
+                         </div>
+
+                         <div class="column pb-6 box-content-2">
+                              <div
+                                   class="box box-content is-flex-mobile is-flex-direction-column is-align-items-center">
+                                   <div class="icon-circle is-flex is-justify-content-center is-align-items-center">
+                                        <figure class="image is-32x32">
+                                             <img src="images/icon-detailed-records.svg" alt="Image">
+                                        </figure>
+                                   </div>
+                                   <p
+                                        class="title is-size-5-mobile is-size-6-tablet is-size-5-desktop font-poppins has-text-dark pt-5 pb-2">
+                                        Detailed Records</p>
+                                   <p
+                                        class="subtitle is-size-6-mobile is-size-7-tablet is-size-5-desktop has-text-gray">
+                                        Gain insights into who is clicking
+                                        your links. Knowing when and where
+                                        people engage with your content
+                                        helps inform better decisions.
+                                   </p>
+                              </div>
+                         </div>
+
+                         <div class="column pb-6 box-content-3">
+                              <div
+                                   class="box box-content is-flex-mobile is-flex-direction-column is-align-items-center">
+                                   <div class="icon-circle is-flex is-justify-content-center is-align-items-center">
+                                        <figure class="image is-32x32">
+                                             <img src="images/icon-fully-customizable.svg" alt="Image">
+                                        </figure>
+                                   </div>
+                                   <p
+                                        class="title is-size-5-mobile is-size-6-tablet is-size-5-desktop font-poppins has-text-dark pt-5 pb-2">
+                                        Fully Customizable</p>
+                                   <p
+                                        class="subtitle is-size-6-mobile is-size-7-tablet is-size-5-desktop has-text-gray">
+                                        Improve brand awareness and
+                                        content discoverability through
+                                        customizable links, supercharging
+                                        audience engagement.
+                                   </p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="line"></div>
+               </div>
+          </section>
+     </div>
+
+     <section class="section bg-boost has-text-centered">
+          <p class="title is-size-4-mobile is-size-4-tablet is-size-3-desktop font-poppins has-text-white">Boots your
+               links today</p>
+          <div class="columns is-mobile is-centered">
+               <div class="column is-6-mobile is-3-tablet is-2-desktop">
+                    <a class="button button-primary is-rounded">Get started</a>
+               </div>
+          </div>
+     </section>
+
+     <footer class="footer bg-dark">
+          <div class="container is-max-widescreen">
+               <div class="columns is-mobile footer-content">
+                    <div class="column is-3-tablet">
+                         <img src="images/logo-white.svg">
+                    </div>
+                    <div class="column is-6-tablet">
+                         <div class="columns">
+                              <div class="column">
+                                   <p class="font-poppins has-text-white pb-4">Features</p>
+                                   <ul>
+                                        <li><a>Link Shortening</a></li>
+                                        <li><a>Branded Links</a></li>
+                                        <li><a>Analytics</a></li>
+                                   </ul>
+                              </div>
+                              <div class="column">
+                                   <p class="font-poppins has-text-white pb-4">Resources</p>
+                                   <ul>
+                                        <li><a>Blog</a></li>
+                                        <li><a>Developers</a></li>
+                                        <li><a>Support</a></li>
+                                   </ul>
+                              </div>
+                              <div class="column">
+                                   <p class="font-poppins has-text-white pb-4">Company</p>
+                                   <ul>
+                                        <li><a>About</a></li>
+                                        <li><a>Our Team</a></li>
+                                        <li><a>Careers</a></li>
+                                        <li><a>Contact</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet footer-icon">
+                         <span class="icon icon-facebook"></span>
+                         <span class="icon icon-twitter"></span>
+                         <span class="icon icon-pinterest"></span>
+                         <span class="icon icon-instagram"></span>
+                    </div>
+               </div>
+
+               <div class="has-text-centered has-text-white mt-6">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                    Coded by Patsawee Tangtrongtorkarn.
+               </div>
+          </div>
+     </footer>
+
+
+     <script src="app.js"></script>
+</body>
+
+</html>
