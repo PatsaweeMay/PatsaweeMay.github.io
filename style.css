@@ -283,6 +283,9 @@ a.menu:hover{
           top: auto;
           left: 2.5%;
      }
+     .navbar-menu.is-active {
+          display: block;
+      }
      .nav-menu a{
           color: white;
           font-size: 1.1rem;
