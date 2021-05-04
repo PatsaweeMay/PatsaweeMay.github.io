@@ -206,6 +206,10 @@ a.menu:hover{
           font-size: 1.1rem;
           margin-bottom: 1rem;
      }
+     .nav-menu a:hover{
+          color: white;
+          background-color: transparent;
+     }
      .nav-line{
           margin: 1rem 0;
           width: 80%;
